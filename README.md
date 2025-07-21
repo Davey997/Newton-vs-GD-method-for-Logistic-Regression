@@ -1,8 +1,3 @@
----
-title: Logistic Regression with Newton and Gradient Descent
-
----
-
 # Logistic Regression with Newton and Gradient Descent
 
 ## Introduction 
@@ -23,8 +18,8 @@ Given that the whole project consists on a single Google Colab notebook, aside f
 
 * Newton vs GD for Logistic Regression.ipynb: the Colab notebook, with full descriptions of each step, function and class. 
 * Newton vs GD for Logistic Regression.py: the raw Python code, for simpler loading and replication 
-* /data: with the .csv files to be loaded on the project via pd.read_csv
-* /images: with the results plots
+* Newton vs GD.zip: with the .csv files to be loaded on the project via pd.read_csv
+* images: with the results plots
 * README.md: this file
 
 ## Libraries used

@@ -7,9 +7,9 @@ The scope of this project consists in creating a logistic regression class, feat
 The goal with this is to demonstrate the efficiency, advantages and drawbacks of both methods in terms of time, accuracy, and learning convergence, depending on the evaluated dataset size in features and samples. 
 
 
-![Newton method](https://hackmd.io/_uploads/H1WVxv5Uxl.png) Newton's method, where f'() represents the gradient and f''() the Hessian 
+![Newton method](images/Newton_method.png) Newton's method, where f'() represents the gradient and f''() the Hessian 
 
-![GD](https://hackmd.io/_uploads/Hk-VePcUxl.png)
+![GD](images/GD.png)
 Gradient Descent method, where alpha represents a scalar learning rate
 
 ## Repository structure
@@ -57,10 +57,10 @@ The best performance happened with the Phishing Websites dataset, with an almost
 
 We can see in the graph below, how Newton's method always required many fewer iterations than GD, and yielded a very similar accuracy.
 
-![accuracy vs iterations](https://hackmd.io/_uploads/ByWNxv58el.png)
+![accuracy vs iterations](images/accuracy_vs_iterations.png)
 
 There doesn't seem to be any correlation between the amount of features in a dataset, and the reached accuracy
 
-![size vs accuracy](https://hackmd.io/_uploads/HJbVgPqIxg.png)
+![size vs accuracy](images/size_vs_accuracy.png)
 
 It is still necessary to test this algortihm with datasets with higher amounts of features. Given the results, the ideal dataset must include at least 1000 samples, only numerical (or at least categorical) features, and have its classes as balanced as possible. Nevertheless, I consider my algorithm works very well, given it's high performance on the largest and best balanced dataset, as we can see in the above graph. 

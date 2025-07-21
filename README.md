@@ -57,7 +57,7 @@ The best performance happened with the Phishing Websites dataset, with an almost
 
 We can see in the graph below, how Newton's method always required many fewer iterations than GD, and yielded a very similar accuracy.
 
-![accuracy vs iterations](images/accuracy_vs_iterations.png)
+![accuracy vs iterations](images/Accuracy_vs_iterations.png)
 
 There doesn't seem to be any correlation between the amount of features in a dataset, and the reached accuracy
 
